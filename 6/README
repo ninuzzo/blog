@@ -1,0 +1,2 @@
+cp 2.html 3.html
+ln -sf 3.html index.html

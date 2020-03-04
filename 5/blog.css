@@ -1,0 +1,68 @@
+/* Attivare durante lo sviluppo e il debugging */
+* {
+  /*border: 1px dotted;*/
+}
+
+main {
+  background-color: gold;
+  padding: 2em;
+  border-top: 0.5em solid black;
+  border-bottom: 0.5em solid black;
+}
+
+article:first-of-type h1 {
+  margin-top: 0;
+}
+
+article p {
+  font-size: larger;
+}
+
+article footer {
+  font-size: smaller;
+  font-style: italic;
+}
+
+article h1 {
+  font-variant: small-caps;
+}
+
+body > footer {
+  background-color: darkred;
+  color: white;
+  padding: 1em;
+}
+
+body > footer p {
+  text-align: center;
+}
+
+body > footer a:link, body > footer a:visited {
+  color: gold;
+}
+
+#blog {
+  font-size: 2em;
+  color: red;
+}
+
+article h1, #name {
+  font-variant: small-caps;
+}
+
+#tagline {
+  display: inline-block;
+  font-size: 2em;
+  text-align: right;
+  margin: 0.5em;
+}
+
+header {
+  text-align: center;
+}
+
+header h1, header p {
+  vertical-align: middle;
+  display: inline-block;
+  text-align: right;
+}
